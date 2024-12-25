@@ -51,6 +51,7 @@ struct ContentView: View {
                       .onAppear {
                           isAnimating.toggle()
                       }
+                 
                   
                   // Star on top
                   Image(systemName: "star.fill")
